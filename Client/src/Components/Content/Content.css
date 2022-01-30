@@ -1,0 +1,76 @@
+.bgimage{
+    background-image: url(../Images/bg.jpg);
+    background-blend-mode: darken;
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    
+}
+.bg{ 
+  
+  /* width: min-content; */
+  margin: 20% 5%;
+  display:flex;
+  flex-wrap: wrap;
+  text-align: center;
+  position: absolute;
+  background-color: antiquewhite;
+  opacity: 0.8;
+
+}
+.div1{
+    text-align: center;
+    /* padding: 0 10vw; */
+    font-size: 5vw;
+    color:black;
+    font-family: cursive;
+    font-weight: bolder;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    animation: 
+      typing 6s forwards;
+      width: 0;
+      /* padding-left: 1vw; */
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  } 
+
+.div2
+{
+  text-align: center;
+  font-family: cursive;
+  font-size: 3vw;
+  color: black;
+  font-weight: bold;
+  animation: 
+  content 6s;
+}
+
+@keyframes content
+{
+  from{ opacity: 0}
+  to{ opacity: 1}
+}
+.btncls{
+  margin-top: 3.8rem;
+  border-radius: 10px;
+  font-size: 1.8rem;
+  border: 1px solid white;
+  background-color: blue;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.btncls :hover
+{
+  color: white;
+}
+

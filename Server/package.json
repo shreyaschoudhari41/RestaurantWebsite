@@ -1,0 +1,24 @@
+{
+  "name": "crudjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js node server",
+    "server": "nodemon server --ignore './foodsite'",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "navin@telusko",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "mongodb": "^3.7.3",
+    "mongoose": "^5.13.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

@@ -1,0 +1,57 @@
+.outerdiv{
+    background-image: url(./bgmenue.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    height: auto;
+    margin: 0%;
+    padding: 20% 18%;
+    padding-top: 10%;
+}
+.head{
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    font-size: 5rem;
+}
+.innerdiv1{
+    background-color: antiquewhite;
+    /* justify-content: center; */
+
+}
+.para{
+    font-family:cursive;
+    font-size: 1.2rem;
+    flex: 9;
+}
+.innerdiv2{
+    background-color: aliceblue;
+}
+.incont{
+    display: flex;
+    flex: 9;
+    margin: 0.6rem 1.2rem;
+}
+.bot{
+    height: 3em;
+}
+.amount{
+    
+    background-color: blanchedalmond;
+    padding: 1.2rem;
+}
+.btnamount{
+    flex: 3;
+    font-size: 1.3rem;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.label{
+    font-family: cursive;
+    padding: 0.5rem 1rem;
+}
+.subbot{
+    text-align: center;
+    padding: 0.5rem 0;
+}
